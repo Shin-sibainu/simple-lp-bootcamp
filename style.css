@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka,
+    "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS P Gothic", Verdana, sans-serif;
+}
+
+.home {
+  width: 100%;
+  height: 100vh;
+}
+
+.bed {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.title-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 9px solid white;
+  text-align: center;
+  color: white;
+  padding: 58px 67px;
+}
+
+.title-box img {
+  width: 90px;
+  height: 90px;
+  margin-bottom: 20px;
+}
+
+.title-box h1 {
+  font-size: 43px;
+}
+
+.title-box p {
+  font-size: 17px;
+}
+
+.title-box button {
+  margin-top: 50px;
+  padding: 15px 30px;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  font-size: 20px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.title-box button:hover {
+  background: white;
+  color: rgb(88, 64, 64);
+}
+
+/* logo section */
+.logo-area {
+  padding: 10px;
+  color: black;
+  font-weight: 600;
+}
+.logo {
+  background: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.logo img {
+  width: 64px;
+  height: 64px;
+}
+
+/* .navbar li a {
+  color: black;
+} */
